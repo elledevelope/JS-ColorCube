@@ -2,6 +2,8 @@
 
 ColorCube is a simple web project that allows users to change the color of a cube on the screen using keyboard keys. By pressing the `R`, `G`, or `B` keys, the cube changes color to red, green, or blue, respectively. Additionally, a corresponding text label is displayed when the cube color changes.
 
+<img src="/assests/media/preview.gif" alt="ColorCube Preview" width="400"/>
+
 ## ✨ Features
 - 🎮 Change the cube's background color using keyboard inputs (`R`, `G`, `B`).
 - 🏷️ Display corresponding text labels when the cube changes color.
