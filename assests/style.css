@@ -35,6 +35,12 @@
     font-family: "Poppins";
 }
 
+.fuchsia {
+    font-size: 20px;
+    text-align: center;
+    color: darkmagenta;
+}
+
 .red {
     /* display: block; */
     display: none;

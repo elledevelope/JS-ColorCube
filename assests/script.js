@@ -2,6 +2,7 @@ let cube = document.querySelector("#cube");
 let red = document.querySelector(".red");
 let green = document.querySelector(".green");
 let blue = document.querySelector(".blue");
+let fuchsia = document.querySelector(".fuchsia");
 let color = document.querySelector(".color");
 console.dir(cube);
 
@@ -19,12 +20,15 @@ function textDisplay(colorCube) {
     blue.style.display = "none";
 
     if (colorCube === "red") {
+        fuchsia.style.display = "none";
         red.style.display = "block";
         red.style.color = "darkred";
     } else if (colorCube === "green") {
+        fuchsia.style.display = "none";
         green.style.display = "block";
         green.style.color = "greenyellow";
     } else if (colorCube === "blue") {
+        fuchsia.style.display = "none";
         blue.style.display = "block";
         blue.style.color = "darkblue";
     }
