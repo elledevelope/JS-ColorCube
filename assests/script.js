@@ -36,6 +36,7 @@ function textDisplay(colorCube) {
 
 window.addEventListener("keyup", function (e) {
     switch (e.keyCode) {
+        // console.dir(e.keyCode); // To check the e.keyCode of keys
         case 82: //---------------- R key: 82 red  
             changeColor("red");
             textDisplay("red");
